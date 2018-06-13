@@ -33,7 +33,7 @@ export default function startServer() {
       console.log('Error at route ', route, e);
     }
   });
-  let port = process.env.PORT || 3000;
+  let port = process.env.PORT || 3001;
   app.listen(port, () => {
     console.log('Application listening on ', port);
   });
